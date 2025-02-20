@@ -15,12 +15,16 @@ Cette configuration `.yml` permet d'améliorer la gestion et l'organisation des 
 
 - `recyclarr.yml` : Configuration principale pour Recyclarr et Radarr.
 - `README.md` : Ce document expliquant le projet et son utilisation.
+- `LICENSE` : Licence sous laquelle le projet est distribué.
+- `prowlarr_indexer_config.jpg` : Image illustrative de la configuration de Prowlarr pour Radarr.
+- `radarr_file_management_config.jpg` : Image illustrative de la configuration de Radarr.
+- `radarr_indexer_config.jpg` : Image illustrative de la configuration de Radarr.
 
 ## 🔧 Installation & Utilisation
 
 ### Prérequis
 
-- **Radarr** installé et configuré
+- **Radarr** installé et configuré ([voir la documentation officielle](https://wiki.servarr.com/radarr))
 - **Recyclarr** installé ([voir la documentation officielle](https://recyclarr.dev/))
 
 ### Configuration
