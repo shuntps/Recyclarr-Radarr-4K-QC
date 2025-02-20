@@ -1,7 +1,7 @@
 radarr:
   movies4k:
-    base_url: http://192.168.2.20:7878
-    api_key: your_radarr_api_key
+    base_url: http://localhost:7878
+    api_key: your_api_key
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
@@ -334,14 +334,18 @@ radarr:
 
       # ===== French Audio Version =====
       - trash_ids:
-          - b6ace47331a1d3b77942fc18156f6df6 # VFQ
-          - 29b5f7b1a5f20f64228786c3ab1bdc7d # VF2
+          - 95aa50f71a01c82354a7a2b385f1c4d8 # VQ
           - 4cafa20d5584f6ba1871d1b8941aa3cb # VOF
           - f7caa1942be5cc547c266bd3dbc2cda9 # VOQ
-          - 95aa50f71a01c82354a7a2b385f1c4d8 # VQ
         assign_scores_to:
           - name: FR-MULTi-VFQ-UHD
             score: 101
+      - trash_ids:
+          - 29b5f7b1a5f20f64228786c3ab1bdc7d # VF2
+          - b6ace47331a1d3b77942fc18156f6df6 # VFQ
+        assign_scores_to:
+          - name: FR-MULTi-VFQ-UHD
+            score: 100
       - trash_ids:
           - 52772f1cad6b5d26c2551f79bc538a50 # VFI
         assign_scores_to:
@@ -357,4 +361,4 @@ radarr:
           - b3fb499641d7b3c2006be1d9eb014cb3 # VFB
         assign_scores_to:
           - name: FR-MULTi-VFQ-UHD
-            score: -101
+            score: -100
